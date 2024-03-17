@@ -64,7 +64,7 @@ def main():
     if user_question:
         response = user_input(user_question)
         st.write("Reply: ", response)
-    pdf_path = "https://github.com/Mahimamali/Chatbot/blob/main/rb.pdf"
+    pdf_path = "C:\\Users\\praneet.manda\\Desktop\\dummy.pdf"
     if os.path.exists(pdf_path):
         raw_text = get_pdf_text([pdf_path])
         text_chunks = get_text_chunks(raw_text)
