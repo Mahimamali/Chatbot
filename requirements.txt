@@ -4,4 +4,4 @@ python-dotenv
 langchain
 PyPDF2
 faiss-cpu
-langchain_google_genai==0.0.11
+langchain_google_genai
